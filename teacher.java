@@ -8,11 +8,14 @@ public class teacher {
 
 
     public teacher(int id ,String name,int salary){
+
         this.id=id;
         this.name=name;
         this.salary=salary;
 
     }
+
+   
 
     public String getName(){
         return this.name;
@@ -23,6 +26,10 @@ public class teacher {
     }
 
     public int getid(){
-        return id;
+        return this.id;
+    }
+
+    public int getFeesPaid(){
+        return 
     }
 }
