@@ -19,4 +19,32 @@ public class school {
         totalMoneySpend=0;
    }
 
+   public List<teacher> getTeachers(){
+       return teachers;
+   }
+   public void addTeachers(teacher teachers){
+        teachers.add(teachers);
+   }
+   public List<student> getStudents(){
+    return students;
+   }
+    public void addStudents(student students){
+            this.students=students;
+    }
+    public int getTotalMoneyEarned(){
+        return totalMoneyEarned;
+    }
+    public int getTotalMoneySpend(){
+        return totalMoneySpend;
+    }
+    public void updateTotalMoneyEarned(int moneyEarned){
+        totalMoneyEarned+=moneyEarned;
+    }
+    pubic void updateTotalMoneySpend(int moneySpend){
+        totalMoneySpend-=moneySpend;
+    }
+
+
+}
+
 }
