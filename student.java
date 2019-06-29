@@ -5,7 +5,7 @@
 public class student {
     private int id;
     private String name;
-    private int fees;
+   // private int fees;
     private int grade;
     private int feespaid;
     private int feestotal;
@@ -50,6 +50,15 @@ public class student {
 
     public int getGrade(){
         return grade;
+    }
+
+    public void payFees(int i){
+        feespaid+=i;
+        school.updateTotalMoneyEarned(feespaid); //we cant use this if it is not satic
+    }
+
+    public int  getRemainingFees(){
+        return feestotal-feespaid;
     }
 
 

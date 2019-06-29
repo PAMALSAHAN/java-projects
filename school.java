@@ -8,14 +8,14 @@ public class school {
 
     private List <teacher> teachers;
     private List <student> strudents;
-    private int totalMoneyEarned;
-    private int totalMoneySpend;
+    private static int  totalMoneyEarned;
+    private static int totalMoneySpend;
 
    //set constructor 
    public school(List <teacher> teachers , List<student> students ){
        this.teachers=teachers;
        this.students=students;
-        totalMoneyEarned=0;
+         totalMoneyEarned=0;
         totalMoneySpend=0;
    }
 
@@ -37,7 +37,7 @@ public class school {
     public int getTotalMoneySpend(){
         return totalMoneySpend;
     }
-    public void updateTotalMoneyEarned(int moneyEarned){
+    public static void updateTotalMoneyEarned(int moneyEarned){
         totalMoneyEarned+=moneyEarned;
     }
     pubic void updateTotalMoneySpend(int moneySpend){

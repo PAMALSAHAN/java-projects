@@ -29,7 +29,5 @@ public class teacher {
         return this.id;
     }
 
-    public int getFeesPaid(){
-        return 
-    }
+   
 }
