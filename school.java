@@ -40,11 +40,10 @@ public class school {
     public static void updateTotalMoneyEarned(int moneyEarned){
         totalMoneyEarned+=moneyEarned;
     }
-    pubic void updateTotalMoneySpend(int moneySpend){
+    public  static void updateTotalMoneySpend(int moneySpend){
         totalMoneySpend-=moneySpend;
     }
 
 
 }
 
-}

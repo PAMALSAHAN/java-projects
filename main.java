@@ -31,8 +31,13 @@ public class main {
         madupa.payFees(4000);
         System.out.println("acc has earned"+acc.getTotalMoneyEarned());
 
+        nuwan.receiveSalary(nuwan.getSalary());
+        
+        System.out.println(pamal); //toString method we use for this 
+        System.out.println(sahan); //toString method describe the object
 
-
+        teacher chamath=new teacher(6,"chamath", 4000);
+        acc.addTeachers(chamath); //this is how to add teachers
 
     }
 }

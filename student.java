@@ -61,5 +61,9 @@ public class student {
         return feestotal-feespaid;
     }
 
+    public String toString(){
+        return "students name :"+name+ "total fees so far is :" + feespaid;
+    }
+
 
 } 
